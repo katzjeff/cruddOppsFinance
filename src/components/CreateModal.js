@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Icon, Modal } from 'semantic-ui-react'
+import { Button, Modal } from 'semantic-ui-react'
 import CreateForm from './CreateForm'
 
 const CreateModal = () => {
@@ -22,11 +22,11 @@ const CreateModal = () => {
           
         </Modal.Description>
       </Modal.Content>
-      <Modal.Actions>
+      {/* <Modal.Actions>
         <Button onClick={() => setOpen(false)} primary>
           Proceed <Icon name='chevron right' />
         </Button>
-      </Modal.Actions>
+      </Modal.Actions> */}
     </Modal>
   )
 }
